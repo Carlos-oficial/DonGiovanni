@@ -4,7 +4,7 @@ export default function WLNDG() {
     return <>
 
             <Image
-                className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert rotating"
+                className="relative drop-shadow-[0_0_0.3rem_#ffffff70] invert rotating"
                 src="/drawing lettering.png"
                 alt="WLNDG Logo"
                 width={600}
