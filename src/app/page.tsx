@@ -7,7 +7,6 @@ import LightSwitch from "./components/light_switch";
 
 export default function Home() {
   return (
-    <>
         <main className={`flex min-h-screen flex-col items-center justify-between p-24 dark:bg-slate-800`}>
 
           <div className="relative flex place-items-center ">
@@ -22,6 +21,5 @@ export default function Home() {
 
           </div>
         </main>
-    </>
   )
 }
