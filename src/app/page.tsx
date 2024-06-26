@@ -12,8 +12,8 @@ export default function Home() {
     <main className=" h-[100vh]  bg-slate-800 flex ">
       <div className={`fixed transform ${sideBar ? "translate-x-0 " : "-translate-x-full"} transition-transform duration-500 ease-in bg-slate-600 w-40 h-full`}>
       <div className="space-y-2 p-4"> 
-        {["Sta Cristina", "Barco"].map((item)=>(
-        <a  className="font-bold hover:drop-shadow-[0_0_0.3rem_#ffffff70] invert"> {item} </a>
+        {["Sta Cristina", "Barco"].map((item,index)=>(
+        <a key={index} className="font-bold hover:drop-shadow-[0_0_0.3rem_#ffffff70] invert"> {item} </a>
       ))}
         </div>
       </div>
